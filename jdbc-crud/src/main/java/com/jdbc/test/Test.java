@@ -9,6 +9,7 @@ import com.jdbc.model.Student;
 public class Test {
 	
 	public static void main(String[] args) {
+		// Add by trang
 		Student student = new Student(1505,"nguyen van B",20);
 		StudentDAO studentDAO = new StudentDAOImpl();
 		studentDAO.insert(student);
