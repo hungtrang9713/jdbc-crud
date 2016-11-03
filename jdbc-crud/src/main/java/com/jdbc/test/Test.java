@@ -9,9 +9,9 @@ import com.jdbc.model.Student;
 public class Test {
 	
 	public static void main(String[] args) {
-//		Student student = new Student(1505,"nguyen van B",20);
-//		StudentDAO studentDAO = new StudentDAOImpl();
-//		studentDAO.insert(student);
+		Student student = new Student(1505,"nguyen van B",20);
+		StudentDAO studentDAO = new StudentDAOImpl();
+		studentDAO.insert(student);
 //		
 //		Student student = new Student(1503,"nguyen van 10",30);
 //		StudentDAO studentDAO = new StudentDAOImpl();
@@ -20,12 +20,13 @@ public class Test {
 //		StudentDAO studentDAO = new StudentDAOImpl();
 //		studentDAO.delete(1503);
 //		
+		// Update by The Anh
 		
-		List<Student> listStudents = new StudentDAOImpl().getListAllStudent();
-		
-		for(Student student : listStudents){
-			System.out.println(student.getId() + ", "+student.getName() + ", "+student.getAge()+"\n");
-		}
+//		List<Student> listStudents = new StudentDAOImpl().getListAllStudent();
+//		
+//		for(Student student : listStudents){
+//			System.out.println(student.getId() + ", "+student.getName() + ", "+student.getAge()+"\n");
+//		}
 		
 	}
 	
